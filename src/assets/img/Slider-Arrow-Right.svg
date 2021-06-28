@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44.828" height="55.656" viewBox="0 0 44.828 55.656">
+  <defs>
+    <filter id="Path_10" x="0" y="0" width="44.828" height="55.656" filterUnits="userSpaceOnUse">
+      <feOffset dx="-4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Doors_Slider_Arrow_Right" data-name="Doors Slider Arrow Right" transform="translate(21.828 17.828)">
+    <g transform="matrix(1, 0, 0, 1, -21.83, -17.83)" filter="url(#Path_10)">
+      <path id="Path_10-2" data-name="Path 10" d="M11112.658,1183.02l10-10,10,10" transform="translate(1204.85 -11094.83) rotate(90)" fill="none" stroke="#c64839" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+  </g>
+</svg>
