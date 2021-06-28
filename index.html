@@ -1,0 +1,1120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landau doors</title>       
+<link href="public/css/main.css" rel="stylesheet"></head>
+<body>     
+<header class="header">
+    <div class="container">               
+        <div class="content">
+            <div class="header__inner">
+                <a href="#top" class="logo">
+                    <img class="logo__img" src="public/img/Logo Transperent@2x.png" alt="logo">
+                </a>
+                <nav class="header__nav">
+                    <!-- header__menu-link--active - активный класс -->
+                    <ul class="header__menu">
+                        <li class="header__menu-item">
+                            <a href="#contacts" class="header__menu-link">צור קשר</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#top" class="header__menu-link">צור קשר</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#about" class="header__menu-link">המסורת</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#quality" class="header__menu-link">האיכות</a> 
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#products" class="header__menu-link">דלתות לנדאו</a> 
+                        </li>                     
+                    </ul>                
+                </nav>
+                <button class="mobile-menu-btn" type="button">
+                    <span class="mobile-menu-btn__line"></span>
+                </button>
+            </div> 
+        </div>        
+    </div>
+</header>
+
+<main class="main">   
+<section id="top" class="top">        
+    <div class="container">             
+        <div class="content">       
+            <div class="top__wrap-img">
+                <div class="top__wrap-img-inner">
+                    <div class="products__wrap-img-mob">
+                        <img src="public/img/bg-top-2.png" alt="">
+                    </div>                     
+                    <div class="top__img-mobile-content">
+                        <h4 class="top__wrap-img-title">
+                            <span class="top__wrap-img-title-content">דלתות לנדאו</span>
+                        </h4>
+                        <p class="top__wrap-img-subtitle">הרהיט הכי יפה בבית</p>
+                        <a class="top__wrap-img-down" href="#products">
+                            <div  class="top__img-down-content">
+                                <div class="top__down-arrow"></div>
+                                <p>גללו וגלו את העולמות שלנו</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="mobile-nav">
+                    <div class="mobile-nav__logo-wr">
+                        <img class="mobile-nav__logo" src="public/fonts/logo-mob.svg" alt="">
+                    </div>
+                    <a class="mobile-nav__tel" href="tel:+88888888888888">
+                        <div class="mobile-nav__tel-content">
+                            <img class="mobile-nav__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOS45NzEiIGhlaWdodD0iMjAiIHZpZXdCb3g9IjAgMCAxOS45NzEgMjAiPg0KICA8ZyBpZD0iR3JvdXBfODYiIGRhdGEtbmFtZT0iR3JvdXAgODYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0yNjYuMjExIC0yNjUuODcyKSI+DQogICAgPHBhdGggaWQ9IlBhdGhfMjciIGRhdGEtbmFtZT0iUGF0aCAyNyIgZD0iTTY3MS4yNTEsNjYwLjAwNmgwbDAsMFoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zODcuNzM3IC0zNzcuMykiIGZpbGw9IiNmZmYiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF8yOCIgZGF0YS1uYW1lPSJQYXRoIDI4IiBkPSJNMjgyLDMwNC4xOTFhMi40MTMsMi40MTMsMCwwLDAtLjMyMi0uMjgyLDIuMDU1LDIuMDU1LDAsMCwwLS4zNDktLjIsMS44NDQsMS44NDQsMCwwLDAtLjM3LS4xMjUsMS43OTMsMS43OTMsMCwwLDAtLjc3MSwwLDEuODg3LDEuODg3LDAsMCwwLS4zNzIuMTIzLDIuMTM4LDIuMTM4LDAsMCwwLS4zNTUuMiwyLjU0NCwyLjU0NCwwLDAsMC0uMzMyLjI4MWwtLjMzMy4zMzItLjMzMy4zMzItLjMzMy4zMzItLjMzMy4zMzItLjA4Mi0uMDQ0LS4wODItLjA0Mi0uMDgxLS4wNDItLjA4LS4wNDEtLjExMi0uMDU2LS4xMDgtLjA1Ni0uMS0uMDU2LS4xLS4wNTZxLS40NjktLjMtLjkxNy0uNjQxdC0uODgtLjczN3EtLjQzMi0uMzk0LS44NS0uODR0LS44MjctLjk0OGMtLjEzMi0uMTY3LS4yNTMtLjMyNy0uMzY0LS40ODJzLS4yMTMtLjMwNi0uMzA3LS40NTMtLjE3OC0uMjkyLS4yNTYtLjQzNS0uMTQ4LS4yODUtLjIxMi0uNDI3cS4xMy0uMTE5LjI1NS0uMjM5dC4yNDctLjI0MmwuMjQxLS4yNDIuMjM2LS4yMzkuMDg5LS4wODkuMDg5LS4wOS4wODktLjA5LjA4OS0uMDg5YTIuMzk0LDIuMzk0LDAsMCwwLC41LS43MDYsMS44LDEuOCwwLDAsMCwwLTEuNTEsMi40LDIuNCwwLDAsMC0uNS0uNzA2bC0uMjg4LS4yODgtLjI4OC0uMjg4LS4yODgtLjI4OC0uMjg4LS4yODgtLjEtLjEtLjEtLjEtLjEtLjEtLjEtLjEtLjE5Mi0uMi0uMi0uMnEtLjEtLjEtLjItLjJ0LS4yLS4xOTNhMi40LDIuNCwwLDAsMC0uMzIxLS4yNjgsMi4wOCwyLjA4LDAsMCwwLS4zNDYtLjE5NEExLjg4MSwxLjg4MSwwLDAsMCwyNzAuNCwyOTNhMS44MjQsMS44MjQsMCwwLDAtLjM4MS0uMDQsMS44NDcsMS44NDcsMCwwLDAtLjM4Mi4wNCwxLjkzOCwxLjkzOCwwLDAsMC0uMzcuMTE4LDIuMTY2LDIuMTY2LDAsMCwwLS4zNTMuMTk0LDIuNSwyLjUsMCwwLDAtLjMzLjI2OGwwLDAsMCwwLDAsMCwwLDAtLjM1OS4zNjItLjM1OS4zNjItLjM1OS4zNjItLjM1OS4zNjJhMy4zMDYsMy4zMDYsMCwwLDAtLjM2Mi40MjcsMy4wMjIsMy4wMjIsMCwwLDAtLjQ1OS45ODMsMy4zMTMsMy4zMTMsMCwwLDAtLjEuNTUzLDUuNTEsNS41MSwwLDAsMCwwLC45LDYuNzkyLDYuNzkyLDAsMCwwLC4xMjUuODQzYy4wNTYuMjY4LjEyNS41Mi4yLjc1M3MuMTQ3LjQ0NS4yMTYuNjMzYy4xNzEuNDYxLjM2My45MTQuNTc5LDEuMzYycy40NTUuODkyLjcyMSwxLjMzNi41NTguODg3Ljg3OCwxLjMzMy42Ny45LDEuMDUxLDEuMzU1YTIwLjcxOCwyMC43MTgsMCwwLDAsMS40NTYsMS41NjgsMTkuOTYyLDE5Ljk2MiwwLDAsMCwxLjU5MSwxLjM4OSwxOS42MzEsMTkuNjMxLDAsMCwwLDMuNTY3LDIuMjIyYy4yNDMuMTE1LjUwNi4yMzUuNzg2LjM1M3MuNTc5LjIzMS44OTIuMzM0YTkuMjQ1LDkuMjQ1LDAsMCwwLC45ODEuMjY1LDcuNDc0LDcuNDc0LDAsMCwwLDEuMDU1LjE0NmwuMDY3LDAsLjA2NywwLC4wNjcsMGguMDY1YTMuNjYsMy42NiwwLDAsMCwuNy0uMDY2LDMuMTUsMy4xNSwwLDAsMCwuNjQxLS4yLDMuMDU4LDMuMDU4LDAsMCwwLC41NzktLjMyNywzLjM3NCwzLjM3NCwwLDAsMCwuNTE0LS40NTdsMC0uMDA2LDAsMCwwLDAsMC0uMDA2Yy4wNTUtLjA2Ny4xMTItLjEzMS4xNzEtLjJzLjExOS0uMTI3LjE4MS0uMTkuMTI1LS4xMjUuMTktLjE4OGwuMi0uMTkxLjEzNy0uMTMxLjEzOC0uMTM1LjEzOC0uMTM4LjEzNy0uMTQxYTIuNTkxLDIuNTkxLDAsMCwwLC4yNzYtLjMzOSwyLjIxMSwyLjIxMSwwLDAsMCwuMi0uMzYsMS45NjQsMS45NjQsMCwwLDAsLjEyMS0uMzc2LDEuODQ5LDEuODQ5LDAsMCwwLC4wNDEtLjM4NiwxLjgyNSwxLjgyNSwwLDAsMC0uMDQyLS4zODgsMS45LDEuOSwwLDAsMC0uMTI0LS4zNzQsMi4xMiwyLjEyLDAsMCwwLS4yLS4zNTUsMi40NzYsMi40NzYsMCwwLDAtLjI4MS0uMzMxbC0uNTc5LS41ODEtLjU3OS0uNTgxLS41NzktLjU4MVptMS41MTEsNC40NDVjLS4wNDEuMDQ0LS4wODMuMDg4LS4xMjQuMTNsLS4xMjcuMTI3LS4xMy4xMjctLjEzNC4xMy0uMjA2LjJxLS4xLjEtLjIwNi4yMDZ0LS4yLjIxNHEtLjEuMTEtLjIuMjI1YTIuMjgzLDIuMjgzLDAsMCwxLS4zMzUuMywxLjkyLDEuOTIsMCwwLDEtLjM3MS4yMDksMS45OTQsMS45OTQsMCwwLDEtLjQxNS4xMjQsMi41MzcsMi41MzcsMCwwLDEtLjQ2Ni4wNDFoLS4xNDZsLS4wNDgsMGE2LjM4NSw2LjM4NSwwLDAsMS0uOTItLjEyOSw4LjE4NSw4LjE4NSwwLDAsMS0uODY4LS4yMzhjLS4yNzktLjA5Mi0uNTQ1LS4yLS44LS4zcy0uNDg4LS4yMTUtLjcwNy0uMzE5YTE4LjU0MSwxOC41NDEsMCwwLDEtMy4zNTctMi4wOTMsMTguODQyLDE4Ljg0MiwwLDAsMS0xLjUtMS4zMDksMTkuNTExLDE5LjUxMSwwLDAsMS0xLjM3My0xLjQ3OGMtLjM2LS40MzQtLjY5LS44NTktLjk5Mi0xLjI4MXMtLjU3OC0uODM4LS44MjgtMS4yNTUtLjQ3NS0uODMzLS42NzctMS4yNTItLjM4Mi0uODQzLS41NDEtMS4yNzNjLS4xLS4yNjMtLjE4MS0uNTExLS4yNDgtLjc0OGE2LjgxMiw2LjgxMiwwLDAsMS0uMTU5LS42NzgsNS4xLDUuMSwwLDAsMS0uMDczLS42MjYsNC4zNzQsNC4zNzQsMCwwLDEsLjAwOC0uNTkxLDIuMTU2LDIuMTU2LDAsMCwxLC4wNi0uMzU1LDEuODczLDEuODczLDAsMCwxLC4yOS0uNjI0LDIuMTQyLDIuMTQyLDAsMCwxLC4yMzMtLjI3NGwuMzYtLjM2LjM2LS4zNi4zNi0uMzYuMzYtLjM2YTEuNDI2LDEuNDI2LDAsMCwxLC4xNTctLjEyOSwxLjA3OSwxLjA3OSwwLDAsMSwuMTYtLjA5NC44MzguODM4LDAsMCwxLC4xNjItLjA1OC43LjcsMCwwLDEsLjE2Mi0uMDE5LjY4NC42ODQsMCwwLDEsLjE4OS4wMjcuODIyLjgyMiwwLDAsMSwuMTY4LjA3LDEuMDU2LDEuMDU2LDAsMCwxLC4xNDMuMSwxLjMxMSwxLjMxMSwwLDAsMSwuMTE2LjFsMCwwLDAsMCwwLDAsMCwwcS4xLjA5LjE5MS4xODJsLjE4OS4xODYuMTg5LjE5MS4xOTEuMi4xLjEuMS4xLjEuMS4xLjEuMjg4LjI4OC4yODguMjg4LjI4OC4yODguMjg4LjI4OGExLjM1MywxLjM1MywwLDAsMSwuMjUyLjMzLjY2Ny42NjcsMCwwLDEsMCwuNjQ4LDEuMzUzLDEuMzUzLDAsMCwxLS4yNTIuMzNsLS4wOTEuMDkyLS4wOS4wOTEtLjA5LjA5MS0uMDkxLjA4OS0uMjYzLjI2OHEtLjEzMS4xMzItLjI2Mi4yNnQtLjI2NC4yNTRxLS4xMzMuMTI2LS4yNzEuMjQ5bC0uMDA2LjAwNi0uMDA2LDAtLjAwNSwwLDAsLjAwNmExLjAyNCwxLjAyNCwwLDAsMC0uMi4yNjkuNzc0Ljc3NCwwLDAsMC0uMDc2LjI1Ni44NjQuODY0LDAsMCwwLC4wMDYuMjMzLDEuMzY1LDEuMzY1LDAsMCwwLC4wNDkuMmwwLC4wMSwwLC4wMSwwLC4wMSwwLC4wMWMuMDc1LjE4MS4xNTcuMzYuMjQ5LjUzOXMuMTkzLjM1OC4zLjU0LjIzNC4zNjYuMzY4LjU1Ni4yODEuMzg2LjQ0Mi41ODloMHEuNDM3LjUzOC44ODcsMS4wMTh0LjkxNi45cS40NjcuNDI1Ljk1Mi44dC45OTMuNjkzcS4wNjUuMDQxLjEzLjA3OWwuMTMxLjA3Mi4xMy4wNjcuMTI4LjA2NC4xMTIuMDU2LjEwOC4wNTYuMS4wNTYuMS4wNTYuMDEzLjAwNy4wMTMuMDA4LjAxMy4wMDguMDEzLjAwN2ExLjE0MywxLjE0MywwLDAsMCwuMTA2LjA0Ny45NTMuOTUzLDAsMCwwLC4xLjAzMy44NDYuODQ2LDAsMCwwLC4xLjAxOS44MzEuODMxLDAsMCwwLC4xLjAwNi44MS44MSwwLDAsMCwuMjM4LS4wMzUuODYzLjg2MywwLDAsMCwuMTg3LS4wODMuOTkuOTksMCwwLDAsLjEzNS0uMWMuMDM2LS4wMzEuMDYzLS4wNTguMDgxLS4wNzZsLjM2MS0uMzYxLjM2MS0uMzYxLjM2MS0uMzYxLjM2MS0uMzYxYTEuNDcyLDEuNDcyLDAsMCwxLC4xMjMtLjExLDEuMTYzLDEuMTYzLDAsMCwxLC4xNS0uMS44NTcuODU3LDAsMCwxLC4xNzMtLjA3NS42NTkuNjU5LDAsMCwxLC4xOTItLjAyOS42NS42NSwwLDAsMSwuMTg3LjAyOC43ODcuNzg3LDAsMCwxLC4xNjYuMDcyLjk5Mi45OTIsMCwwLDEsLjE0MS4xLDEuMTU0LDEuMTU0LDAsMCwxLC4xMTMuMTA5bC41ODQuNTg0LjU4NC41ODQuNTg0LjU4NC41ODQuNTg0YTEuMjUzLDEuMjUzLDAsMCwxLC4yNDUuMzI1LjczNS43MzUsMCwwLDEsLjA4Mi4zMjkuNzU0Ljc1NCwwLDAsMS0uMDguMzMyQTEuMzE4LDEuMzE4LDAsMCwxLDI4My41MTQsMzA4LjYzNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDAgLTI1LjkzKSIgZmlsbD0iI2ZmZiIvPg0KICAgIDxwYXRoIGlkPSJQYXRoXzI5IiBkYXRhLW5hbWU9IlBhdGggMjkiIGQ9Ik01MDguNDE1LDM1MS45MjFhNS4zMTksNS4zMTksMCwwLDEsMi4yNzUuOTYzLDUuNTY0LDUuNTY0LDAsMCwxLDEuMTg2LDEuMTg2LDUuMzU0LDUuMzU0LDAsMCwxLC43NiwxLjQ2Niw1LjQzNyw1LjQzNywwLDAsMSwuMi44MDkuNTYxLjU2MSwwLDAsMCwuMi4zNDEuNTczLjU3MywwLDAsMCwuMzY2LjEzMmguMDI1bC4wMjQsMCwuMDI0LDAsLjAyNSwwYS41NjIuNTYyLDAsMCwwLC4zNy0uMjMxLjU3Ni41NzYsMCwwLDAsLjA5LS4yLjU4Mi41ODIsMCwwLDAsLjAwOC0uMjI4QTYuNDksNi40OSwwLDAsMCw1MTIuOCwzNTMuNGE2LjY4NCw2LjY4NCwwLDAsMC0xLjQzMi0xLjQzMiw2LjQ4OSw2LjQ4OSwwLDAsMC0yLjc1NC0xLjE2Ni41OC41OCwwLDAsMC0uMjI3LjAwOC41NzIuNTcyLDAsMCwwLS4zMzkuODgyLjU1OS41NTksMCwwLDAsLjE1Ni4xNTJBLjU1MS41NTEsMCwwLDAsNTA4LjQxNSwzNTEuOTIxWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIzMS40MDkgLTgxLjI5MSkiIGZpbGw9IiNmZmYiLz4NCiAgICA8cGF0aCBpZD0iUGF0aF8zMCIgZGF0YS1uYW1lPSJQYXRoIDMwIiBkPSJNNTIxLjIxMSwyNzQuNjk1YTEwLjc2NywxMC43NjcsMCwwLDAtLjQtMS42MTIsMTAuNjYxLDEwLjY2MSwwLDAsMC0xLjUxNS0yLjkyMiwxMS4wMzMsMTEuMDMzLDAsMCwwLTIuMzYxLTIuMzYxLDEwLjY4NSwxMC42ODUsMCwwLDAtNC41MzQtMS45MTkuNTUzLjU1MywwLDAsMC0uMjI0LjAwNi41NjMuNTYzLDAsMCwwLS4yLjA5LjU3MS41NzEsMCwwLDAsLjIzNiwxLjAyNyw5LjU0MSw5LjU0MSwwLDAsMSw0LjA1MiwxLjcxNiw5LjgsOS44LDAsMCwxLDIuMTExLDIuMTA5LDkuNTMsOS41MywwLDAsMSwxLjcxNCw0LjA1Mi41NjEuNTYxLDAsMCwwLC4yLjM0MS41NzIuNTcyLDAsMCwwLC4zNjYuMTMyaC4wMjVsLjAyNCwwLC4wMjQsMCwuMDI1LDBhLjU0OS41NDksMCwwLDAsLjIxLS4wNzguNTYuNTYsMCwwLDAsLjI1NC0uNTcyWiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTIzNS4wMzgpIiBmaWxsPSIjZmZmIi8+DQogIDwvZz4NCjwvc3ZnPg0K" alt="">
+                            <span>התקשרו עכשיו</span>
+                        </div>    
+                    </a>
+                </div> 
+            </div>
+            <h2 class="top__title">דלתות לנדאו</h2>
+            <p class="top__subtitle">הרהיט הכי יפה בבית</p>
+
+            <div class="top__text">
+                <p>.כל דלת ודלת בבית היא פתח לעולם קטן עם אופי, מראה וסגנון משלו
+                ,מעל ל-60 שנה שאנחנו מייצרים דלתות איכות שמובילות לעולמות המעוצבים
+                .המרגשים והמרתקים ביותר בבית הישראלי
+                .אנחנו דלתות לנדאו ואנחנו כאן כדי לעצב את הרהיט הכי יפה בבית שלך</p>
+            </div>
+            <button class="top__btn" type="button">
+                <p class="top__btn-txt">
+                    <span class="top__btn-span"></span>
+                    <span class="top__btn-span-txt">לצפייה בסרטון שלנו</span>
+                </p>
+            </button> 
+            <div class="top__modal">
+                <div class="top__modal-video-wrap">
+                    <video class="top__modal-video" controls >
+                        <source src="58255f27bc5a9ed7e3e5.mp4" type="video/mp4"><!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+                        <source src="58255f27bc5a9ed7e3e5.mp4" type="video/webm"><!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+                        <source src="58255f27bc5a9ed7e3e5.mp4" type="video/ogg"><!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+                        <object data="58255f27bc5a9ed7e3e5.mp4" type="application/x-shockwave-flash">
+                            <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+                            <param name="movie" value="video.swf">
+                        </object>
+                    </video>
+                </div>
+            </div>
+
+            <a class="top__link-contacts" href="#contacts">
+                <img src="public/img/Phone-On-Table.png" alt="">
+                <span class="top__link-contacs-txt">ליצירת
+                קשר</span>
+            </a>
+            
+        </div>              
+    </div>              
+</section>    
+ 
+<section id="products" class="products">
+    <div class="container">
+        <div class="content">
+            <div class="products__wrap-img-mob">
+                <img src="public/img/hotel660.png" alt="">
+            </div>             
+            <h3 class="products__title">הקו העיצובי שלנו</h3>
+            <p class="products__subtitle">.אנחנו מעצבים דלתות יוקרה בהתאמה אישית על הסקאלה שבין המינימליסטי לשובר המוסכמות</p>
+            <div class="products__slider-wr">
+                <div class="products__slider">
+                    <div> <!-- slide 1 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_1" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_1">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_1">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 1111111</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 1111111</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_1">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 1 end   -->
+                    <div> <!-- slide 2 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_2" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_2">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_2">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 22222</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 222222</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_2">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 2 end   -->
+                    <div> <!-- slide 3 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_3" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_3">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_3">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 33333</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 33333</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_3">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 3 end   -->
+                    <div> <!-- slide 4 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_4" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_4">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_4">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 444444</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 44444</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_4">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 4 end   -->
+                    <div> <!-- slide 5 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_5" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_5">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_5">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 55555</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 55555</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_5">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 5 end   -->   
+                    <div> <!-- slide 6 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_6" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_6">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_6">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 666666</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 66666</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_6">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">               
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 6 end   --> 
+                    <div> <!-- slide 7 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_7" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_7">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_7">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 77777</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 77777</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_7">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 7 end   -->
+                    <div> <!-- slide 8 start   -->
+                        <div class="products__slide">
+                            <div class="products__slide-wrap">
+                                <img class="products__slide-img" src="public/img/Door1.png" alt="">
+                                <div class="products__slide-card">
+                                    <div>
+                                        <p class="products__slide-card-title">מצאתי את האחת שלי</p>
+                                        <p class="products__slide-card-subtitle">עץ מהגוני ריבועי #3</p>
+                                        <button class="products__slide-card-btn" data-mod="pm_8" type="button">
+                                            <span class="products__card-btn-txt" data-mod="pm_8">לפרטים והזמנה</span>
+                                        </button>
+                                        <div class="products__card-content" data-mod="pm_8">
+                                            <div class="products__card-content-inner">
+                                                <div class="products__card-img">
+                                                    <img src="public/img/Door1.png" alt="">
+                                                    <p class="products__card-articul">מקט: 8888888</p>
+                                                </div>
+                                                <div class="products__card-txt">
+                                                    <div class="products__card-top-wrap">
+                                                        <button class="products__card-close" type="button">
+                                                            <img class="products__card-close-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMC4yNDMiIGhlaWdodD0iMjAuMjQzIiB2aWV3Qm94PSIwIDAgMjAuMjQzIDIwLjI0MyI+DQogIDxnIGlkPSJHcm91cF83MyIgZGF0YS1uYW1lPSJHcm91cCA3MyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTEzODAuMzc5IC0xOTIuMzc5KSI+DQogICAgPGxpbmUgaWQ9IkxpbmVfMjMiIGRhdGEtbmFtZT0iTGluZSAyMyIgeDI9IjE2IiB5Mj0iMTYiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEzODIuNSAxOTQuNSkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iI2M2NDgzOSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2Utd2lkdGg9IjMiLz4NCiAgICA8bGluZSBpZD0iTGluZV8yNCIgZGF0YS1uYW1lPSJMaW5lIDI0IiB4MT0iMTYiIHkyPSIxNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTM4Mi41IDE5NC41KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iMyIvPg0KICA8L2c+DQo8L3N2Zz4NCg==" alt="">
+                                                        </button>
+                                                        <div class="products__card-top-img">
+                                                            <img src="public/img/Door1.png" alt="">
+                                                        </div>
+                                                        <div class="products__card-top-text">
+                                                            <h3 class="products__card-title">
+                                                                עץ מהגוני ריבועי #3
+                                                            </h3>
+                                                            <p class="products__articul-mob">מקט: 888888</p>
+                                                            <p class="products__card-subtitle">
+                                                                מכל הדלתות בעולם בחרת בה והיא מאושרת עד מעל הקורה.
+                                                                אנחנו נשמח לעזור לה להשתלב בעיצוב הבית שלך,
+                                                                כל מה שנשאר לך לעשות הוא להשאיר לנו פרטים:
+                                                            </p>
+                                                        </div>
+                                                    </div>
+                                                    <form class="products__card-form" action="">
+                                                        <div class="products__form-row products__form-row-top">
+                                                            <input class="products__input-top" type="text" placeholder="טלפון">
+                                                            <input class="products__input-top" type="text" placeholder="שם מלא">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__input-top" type="text" placeholder="כתובת מייל">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text"
+                                                                placeholder="היכן תכננת למקם אותה">
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <input class="products__card-input-bottom" type="text" disabled>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <button class="products__btn" type="button">
+                                                                <p class="products__btn-txt">
+                                                                    <span class="products__btn-span"></span>
+                                                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                                                </p>
+                                                            </button>
+                                                        </div>
+                                                        <div class="products__form-row">
+                                                            <label class="products__label-checkbox" for="">
+                                                                אני מאשר קבלת תוכן פרסומי
+                                                                <input class="products__card-checkbox" type="checkbox" checked>
+                                                            </label>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            <div class="mobile-nav-products">
+                                                <div class="mobile-nav-products__logo-wr">
+                                                    <img class="mobile-nav-products__logo" src="public/fonts/logo-mob.svg" alt="">
+                                                </div>
+                                                <a class="mobile-nav-products__tel" href="/">
+                                                    <div class="mobile-nav-products__tel-content">
+                                                        <img class="mobile-nav-products__tel-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNi44NSIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDE2Ljg1IDE0Ij4NCiAgPHBhdGggaWQ9IlBhdGhfMjYiIGRhdGEtbmFtZT0iUGF0aCAyNiIgZD0iTTEwOC44NzEsMTMxLjg2OGg4LjQybC0xLjkwNi0xLjkwNmEuOTMuOTMsMCwwLDEsMS4zMTYtMS4zMTZsMy40OTQsMy40OTRhLjkzNy45MzcsMCwwLDEsLjExOC4xNDRsLjAxMS4wMTYsMCwuMDA2YS45MzYuOTM2LDAsMCwxLC4wNzEuMTM5bC4wMDcuMDE3LDAsLjAwN2EuOTIxLjkyMSwwLDAsMSwuMDQzLjE0OGwwLC4wMnYuMDA4YS45MjYuOTI2LDAsMCwxLC4wMTMuMTQ1di4wMThhLjkzNC45MzQsMCwwLDEtLjAxMy4xNDR2LjAwOGwwLC4wMTdhLjkzLjkzLDAsMCwxLS4wNDMuMTQ5bDAsLjAxLS4wMDYuMDE1YS45MjcuOTI3LDAsMCwxLS4wNzEuMTM4bC0uMDA1LjAwOS0uMDEuMDE0YS45MzcuOTM3LDAsMCwxLS4xMTcuMTQzTDExNi43LDEzNi45NWEuOTMuOTMsMCwwLDEtMS4zMTYtMS4zMTVsMS45MDYtMS45MDZoLTguNDJhMy4zOTMsMy4zOTMsMCwwLDAsMCw2Ljc4NWg3LjI1NWEuOTMuOTMsMCwxLDEsMCwxLjg2aC03LjI1NWE1LjI1Myw1LjI1MywwLDAsMSwwLTEwLjUwNloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMDMuNjE4IC0xMjguMzc0KSIgZmlsbD0iI2ZiZmJmYiIvPg0KPC9zdmc+DQo=" alt="">
+                                                        <span>חזרה לאתר</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> <!-- products__slide-card -->
+                                <button class="products__slide-btn-mob" type="button" data-mod="pm_8">
+                                    <p class="products__slide-btn-mob-txt">להזמנה</p>
+                                    <img class="products__slide-btn-mob-img" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMC4xMDgiIGhlaWdodD0iNC45OTgiIHZpZXdCb3g9IjAgMCAxMC4xMDggNC45OTgiPg0KICA8cGF0aCBpZD0iVXBfQXJyb3ciIGRhdGEtbmFtZT0iVXAgQXJyb3ciIGQ9Ik0wLDMuMTkzLDQsMCw4LDMuMTkzIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxLjA1NCAwLjc1KSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjYzY0ODM5IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIHN0cm9rZS13aWR0aD0iMS41Ii8+DQo8L3N2Zz4NCg==" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div> <!-- slide 8 end   -->
+                </div>
+                <div class="products__slider-after">                
+                    <div class="products__slider-after-line"></div>
+                    <div class="products__slider-after-wr">
+                        <span class="products__slider-after-btn slider-prev--js">מינימליסטי</span>
+                        <span class="products__slider-after-btn slider-next--js">אקסטרווגנטי</span>
+                    </div>
+                </div>
+            </div> <!-- products__slider-wr -->
+            <div class="products__card-modal">
+                <div class="products__card-modal-content">
+                это модальное окно карточки товара
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="quality" class="quality">
+    <div class="container">         
+        <div class="content">
+            <div class="quality__wrap-img-mob">
+                <img src="public/img/factory660.png" alt="">
+            </div>
+            <h3 class="quality__title">האיכות שלנו</h3>
+            <div class="quality__text">
+                <p>
+                    כל דלת שייצרנו ב 60 השנים האחרונות, קבעה את סטנדרט האיכות של דלתות הפנים בישראל. זה מתחיל מחומרי הגלם וסוג העץ, דרך
+                    עבודת הנגרות הבלתי מתפשרת ועד הצבע והעיצוב החדשניים.
+                    אנחנו מאמינים שדלת פנים איכותית חייבת להתאים לבית שלך כמו כפפה, תלווה אותך שנים רבות ותגרום להורים להתגאות ולחברים לקנא.
+                </p>
+            </div>
+            <div class="quality__wrap">
+                <div class="quality__pointer">
+                    <img class="quality__pointer-img" src="public/img/arm.png" alt="">
+                </div>
+                <div class="quality__slider-wrap">
+                    <div class="quality__slider-dots-wrap">
+                        <div class="quality__slider-dot quality__slider-dot--active" data-quality="ql_1">
+                            <span>התאמה <br>   אישית</span>                    
+                        </div>
+                        <div class="quality__slider-dot" data-quality="ql_2">
+                            <span> פרזול
+                                <br>
+                            איכותי</span>
+                        </div>
+                        <div class="quality__slider-dot" data-quality="ql_3">
+                            <span>חומרי
+                                <br>
+                            גלם</span>
+                        </div>                
+                    </div>
+                    <div class="quality__slider-slides-container">
+                        <div class="quality__slider-slides-wrap">
+                            <div id="ql_1" class="quality__slider-slide quality__slider-slide--active">
+                                <div class="quality__slider-slide-txt">
+                                    <p class="quality__slider-slide-title">התאמה אישית</p>
+                                    <span>
+                                        אנחנו נבנה את הדלתות שלך בהתאמה לכל חזון עיצובי שיש לך, גם בגדלים ובצבעים לא סטנדרטיים.
+                                    </span>
+                                </div>                        
+                                <div class="quality__slider-wrap-img">
+                                    <img class="quality__slider-slide-img" src="public/img/d1.jpg" alt="">
+                                </div>
+                            </div>
+                            <div id="ql_2" class="quality__slider-slide">
+                                <div class="quality__slider-slide-txt">
+                                    <p class="quality__slider-slide-title">פרזול איכותי</p>
+                                    <span>
+                                        אנחנו נבנה את הדלתות שלך בהתאמה לכל חזון עיצובי שיש לך, גם בגדלים ובצבעים לא
+                                        סטנדרטיים.
+                                    </span>
+                                </div>
+                                <div class="quality__slider-wrap-img">
+                                <img class="quality__slider-slide-img" src="public/img/d2.jpg" alt="">
+                                </div>
+                            </div>
+                            <div id="ql_3" class="quality__slider-slide">
+                                <div class="quality__slider-slide-txt">
+                                    <p class="quality__slider-slide-title">חומרי גלם</p>
+                                    <span>
+                                        אנחנו נבנה את הדלתות שלך בהתאמה לכל חזון עיצובי שיש לך, גם בגדלים ובצבעים לא
+                                        סטנדרטיים.
+                                    </span>
+                                </div>
+                                <div class="quality__slider-wrap-img">
+                                <img class="quality__slider-slide-img" src="public/img/d3.jpg" alt="">
+                                </div>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="container">
+        <div class="content">
+            <div class="about__wrap-img-mob">
+                <img src="public/img/bg-4-660.png" alt="">
+            </div>
+            <h3 class="about__title">המסורת שלנו</h3>
+            <div class="about__text">
+                .מעל ל-60 שנה שאנחנו מתמחים בתכנון, עיצוב ויצירת דלתות פנים
+                .זה העסק שלנו, זאת המהות שלנו ואנחנו לא מוכנים להיות פחות מהטובים ביותר
+                .כשתפתחו את הדלת שלנו תרגישו מיד את ההבדל באיכות
+            </div>
+            <div class="about__people-wrap">
+                <div class="about__people-item">
+                    <div class="about__people-item-txt">
+                        <p class="about__people-item-name">נועה  <br>
+                        לנדאו-פוטסמן</p>
+                        <p class="about__people-item-position">מנהלת שירות לקוחות ואולם תצוגה</p>
+                    </div>
+                    <div class="about__people-item-foto">
+                        <picture>
+                            <source srcset="public/img/pm-1.png" media="(max-width: 550px)">
+                            <img src="public/img/p1.png" alt="">
+                        </picture>                         
+                    </div>
+                </div>
+                <div class="about__people-item">
+                    <div class="about__people-item-txt">
+                        <p class="about__people-item-name">נועהשחר<br>
+                        לנדאו</p>
+                        <p class="about__people-item-position">מנכ"ל אשדוד</p>
+                    </div>
+                    <div class="about__people-item-foto">                         
+                        <picture>
+                            <source srcset="public/img/pm-2.png" media="(max-width: 550px)">
+                            <img src="public/img/p2.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="about__people-item">
+                    <div class="about__people-item-txt">
+                        <p class="about__people-item-name">אסתר<br>
+                        לנדאו-אביעד</p>
+                        <p class="about__people-item-position">שותפה</p>
+                    </div>
+                    <div class="about__people-item-foto">
+                        <picture>
+                            <source srcset="public/img/pm-3.png" media="(max-width: 550px)">
+                            <img src="public/img/p3.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+                <div class="about__people-item">
+                    <div class="about__people-item-txt">
+                        <p class="about__people-item-name">אברהם<br>
+                        לנדאו</p>
+                        <p class="about__people-item-position">בעלים</p>
+                    </div>
+                    <div class="about__people-item-foto">
+                        <picture>
+                            <source srcset="public/img/pm-4.png" media="(max-width: 550px)">
+                            <img src="public/img/p4.png" alt="">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+          
+<section id="contacts" class="contacts">
+    <div class="container">
+        <div class="content">
+            <div class="contacts__wrap-img-mob">
+                <img src="public/img/bg-5-660.png" alt="">
+            </div>
+            <h3 class="contacts__title">נשמח לדבר איתך</h3>
+            <p class="contacts__subtitle">למידע נוסף על הדלתות שלנו ולתאום פגישה אנחנו תמיד זמינים</p>
+            <div class="contacts__content-wrap">
+                <div class="contacts__content-left">
+                    <p class="contacts__left-title">הקשיבו לאדריכלים שלכם</p>
+                    <p class="contacts__left-subtitle">האדריכלים המובילים בישראל מעדיפים לעבוד עם דלתות לנדאו. השאירו פרטים והם יספרו לכם למה.</p>
+                    <form class="contacts__form" action="">
+                        <div class="contacts__form-row">
+                            <input class="contacts__form-input" type="text" placeholder="שם מלא">
+                        </div>
+                        <div class="contacts__form-row">
+                            <input class="contacts__form-input" type="text" placeholder="מייל">
+                        </div>
+                        <div class="contacts__form-row">
+                            <input class="contacts__form-input" type="text" placeholder="טלפון">
+                        </div>
+
+                        <div class="contacts__form-row">
+                            <button class="products__btn" type="button">
+                                <p class="products__btn-txt">
+                                    <span class="products__btn-span"></span>
+                                    <span class="products__btn-span-txt">שלח טופס</span>
+                                </p>
+                            </button>
+                            <label class="products__label-checkbox contacts__label-checkbox" for="">
+                                אני מאשר קבלת תוכן פרסומי
+                                <input class="products__card-checkbox" type="checkbox" checked>
+                            </label>
+                        </div>                         
+                    </form>                
+                </div>
+                <div class="contacts__content-rigt">
+                    <a class="contacts__tel" href="tel:072-8886644">072-8886644</a>
+                    <div class="contacts__right-title">
+                        <p>ניתן לקבוע איתנו</p>
+                        <p>פגישה ישר ביומן</p>
+                    </div>
+                    <div class="contacts__right-adress">
+                        <div class="contacts__adress">
+                            <p>אולם תצוגה</p>
+                            <p>רח’ מנופים 2 הרצליה פיתוח</p>
+                        </div>
+                        <div class="contacts__adress">
+                            <p>מפעל ותצוגה</p>
+                            <p>את. בני דרום – צומת אשדוד</p>
+                        </div>
+                    </div>
+                    <div class="contacts__btn-wr">
+                        <button class="products__btn" type="button">
+                            <p class="products__btn-txt">
+                                <span class="products__btn-span contacts__btn-span"></span>
+                                <span class="products__btn-span-txt">קבעו פגישה ביומן</span>
+                            </p>
+                        </button>
+                    </div>
+                    <div class="contacts__btn-wr contacts__btn-wr--mob">
+                        <button class="products__btn" type="button">
+                            <p class="products__btn-txt">
+                                <span class="products__btn-span contacts__btn-span"></span>
+                                <span class="products__btn-span-txt">קבעו פגישה ביומן</span>
+                            </p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="top__link-contacts contacts__link-contacts" href="#">
+                <img src="public/img/Phone-On-Table.png" alt="">
+                <span class="top__link-contacs-txt">ליצירת
+                    קשר</span>
+            </div>
+        </div>
+    </div>
+</section>
+</main>  
+<script defer src="main.js"></script></body>
+</html>
